@@ -1,0 +1,426 @@
+<html>
+    <head>
+        <script src="mycode.js"></script>
+        <style>
+            a {
+            text-decoration: none;
+            color: inherit;
+            }
+            .fade {
+            opacity: 0;
+            transition: opacity 1s ease;
+            }
+
+            .fade-in {
+            opacity: 1;
+            }
+            .listacentrado{
+            display: block;
+            text-align: center;
+            width: auto;
+            height: auto;
+            border-style:solid;
+            border-bottom-color: #7ABA96;
+            border-top-color: #7ABA96;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-width: 1px;
+            margin-bottom: 10px;
+            }
+            .estilotitulo{
+            display: block;
+            }
+            h1 {
+            width: 100%;
+            height: 30px;
+            background-color: white;
+            }
+            img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            ul {
+            width: 100%;
+            height: 40px;
+            border-style:solid;
+            border-bottom-color: #7ABA96;
+            border-top-color: #7ABA96;
+            border-left-color: white;
+            border-right-color: white;
+            border-width: 1px;
+            }
+            ul1 {
+            width: 100%;
+            height: 40px;
+            }
+            .centrar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            }
+            aside1 {
+            float: left;
+            background-color: white;
+            width: 10%;
+            height: 900px;                
+            }
+            aside2 {
+            float: right;
+            background-color: white;
+            width: 10%;
+            height: 900px;
+            }
+            .container {
+            float: left;
+            background-color: white;
+            width: 60%;
+            height: auto;   
+            }                
+            .izquierda {
+            text-align: left;
+            }
+            .centrado {
+            text-align: center;
+            }
+            .negrita {
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            }
+            .rayaverde {
+            text-align: center;
+            width: auto;
+            height: auto;
+            border-style:solid;
+            border-bottom-color: #7ABA96;
+            border-top-color: #7ABA96;
+            border-left-color: white;
+            border-right-color: white;
+            border-width: 1px;
+            }
+            
+            .footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            }
+            ul.sticky {
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            }
+            p.sticky {
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            }
+            ul p:hover {
+            color: #7ABA96;
+            }
+            ul p:hover {
+            color: #7ABA96;
+            }
+            p.negrita:hover {
+            color:#8A8070;
+            }
+
+            section{
+            box-sizing: border-box;
+            float: left;
+            background-color: white;
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            }
+            lateral{
+            position: sticky;
+            top: 0;
+            margin-top: 40px;
+            box-sizing: border-box;
+            padding: 1.5%;
+            display: inline-block;
+            background-color: #8A8070;
+            width: 266px;
+            height: 419px;
+            }
+            caracteristicas img{
+            float: left;
+            }
+            descripcion  {
+            display: block;
+            }
+            titulo1{
+            display: block;
+            width:100%;
+            height: 30px;
+            text-align: center;
+            font-size: 30px;
+            padding: 1%;
+            background-color: #7ABA96;
+            }
+            section titulo:hover{
+            color:#8A8070;
+            }
+            
+        </style>
+
+
+    </head>
+    <body>
+        <div id="header">
+            <h1>
+                <h2>
+                    <img src="Imagenes/Logo-Delicias.png" width="auto" height="auto">
+                </h2>
+            </h1>
+            <ul class="sticky">
+                <p class="sticky"><a href="index.html">INICIO</a></p>
+                <p class="sticky">SOBRE MI</p>
+                <p class="sticky"><a href="Recetas.html">RECETAS</a></p>
+                <p class="sticky"><a href="Formulario.html">CONTACTOS</a></p>
+                <p class="sticky">OTRAS COSAS</p>
+            </ul>
+            <titulo1>Recetas</titulo1>
+        </div>
+
+        <div id="trunk">
+            <aside1></aside1>    
+            <aside2></aside2>
+            <container class="container">
+                <section>
+                    <titulo class="listacentrado"><a href="Receta.html">Fideos de arroz con salteado de tofu y pimiento</a></titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Fideos.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 35 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Medio</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> José María</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Ensalada de quinoa, calabaza asada y granada</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Ensalada.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 45 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> No</descripcion>
+                            <descripcion><b>Autor:</b> Pepe Gotera</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Tortilla de patatas vegana</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Tortilla.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 30 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Medio</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Luís Alfonsín</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Revuelto vegano de tofu</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Revuelto.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 15 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Lara Montserrat</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Falafel ligero</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Falafel.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 30 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Difícil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Miquel de les Planes</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Tortilla jugosa vegana de calabacín</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/TortillaCalabacín.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 10 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Martín de Vilanova</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Mantequilla de anacardos</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Mantequilla.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 2 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Marta Gracia</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Curry de garbanzos con mango</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Curry.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 25 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Ferrán dels Horts</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Receta de burritos vegetarianos</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Burritos.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 1 hora</descripcion>
+                            <descripcion><b>Dificultad:</b> Difícil</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Emilia Sánchez</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Filetes de seitán en salsa de pimienta</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Filetes.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 20 min</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Sancho Alcover</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>                
+                <section>
+                    <titulo class="listacentrado">Mini hamburguesas de aguacate y quinoa</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/HamburguesasMini.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 30 min</descripcion>
+                            <descripcion><b>Dificultad:</b> Medio</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Thomson Lerroux</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Tacos veganos de garbanzos y soja</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Tacos.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 15 min</descripcion>
+                            <descripcion><b>Dificultad:</b> Medio</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Alberto Catalán</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+                <section>
+                    <titulo class="listacentrado">Ensalada vegana de garbanzos tostados y col rizada kale</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/EnsaladaKale.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 25 min</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Françoise Alguilar</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>  
+                <section>
+                    <titulo class="listacentrado">Macarrones con tomate y setas</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Macarrones.PNG" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 15 min</descripcion>
+                            <descripcion><b>Dificultad:</b> Fácil</descripcion>
+                            <descripcion><b>Celíacos:</b> No</descripcion>
+                            <descripcion><b>Vegano:</b> No</descripcion>
+                            <descripcion><b>Autor:</b> Jennifer Bony</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>   
+                <section>
+                    <titulo class="listacentrado">Hamburguesas veganas de remolacha y lechuga</titulo>
+                    <subtitulo class="list">Receta:</subtitulo>
+                    <caracteristicas class="list">
+                        <descripciones>
+                            <img src="Imagenes/Hamburgesa.jpg" width="100px" height="100px">
+                            <descripcion><b>Tiempo:</b> 30 minutos</descripcion>
+                            <descripcion><b>Dificultad:</b> Medio</descripcion>
+                            <descripcion><b>Celíacos:</b> Sí</descripcion>
+                            <descripcion><b>Vegano:</b> Sí</descripcion>
+                            <descripcion><b>Autor:</b> Ana Rodriguez</descripcion>
+                        </descripciones>
+                    </caracteristicas>
+                </section>
+            </container>
+            <lateral>
+                <anuncio>Hola! Para nuetros más estimados usuarios, la siguiente semana nuestro equipo y yo hemos decidido organizar en colaboración con Greenpeace una campaña para la protección de la bioesfera. Para más información, contacte con Greenpeace. </anuncio>
+                <img src="Imagenes/Earths.png" width="100%" height="auto"></img>
+            </lateral>
+        </div>
+        <div id="footer">
+            <ul1 class="footer">
+                <p class="footer">FACEBOOK</p>
+                <p class="footer">TWITTER</p>
+                <p class="footer">INSTAGRAM</p>
+                <p class="footer">PINTEREST</p>
+                <p class="footer">EMAIL</p>
+            </ul1>
+        </div>
+        </body>
+    </body>
+</html>
